@@ -3,7 +3,7 @@
     <HelloWorld msg="This is a counter" />
     <div>
       <h1>This is a tic tac toe app.</h1>
-      <TicTacToe />
+      <TicTacToe size="3" />
     </div>
   </div>
 </template>
