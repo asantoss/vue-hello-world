@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <HelloWorld msg="This is a counter" />
     <div>
       <h1>This is a tic tac toe app.</h1>
       <TicTacToe size="3" />
@@ -9,15 +8,13 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
 import TicTacToe from "./components/TicTacToe.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
-    TicTacToe
-  }
+    TicTacToe,
+  },
 };
 </script>
 
